@@ -1,3 +1,6 @@
+Link Drive:
+https://drive.google.com/drive/folders/1oImOwSfXKquz3gxXjDpNVqulHg_uKwzY?usp=sharing
+
 ## Dataset Split Metadata
 
 Dataset ini digunakan untuk penelitian:
