@@ -72,6 +72,6 @@ F1-Score : 89.77%<br/>
 AUC-ROC  : 0.9676
 
 
-![](results/kurva training validation loss 90_10.png)
+![](results/kurva training validation loss 90_10.png)<br/>
 ![](results/confusion matrix ROC 90_10.png)
 
