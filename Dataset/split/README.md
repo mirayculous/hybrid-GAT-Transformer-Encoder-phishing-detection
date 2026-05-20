@@ -85,26 +85,3 @@ test.csv
 ```
 
 ---
-
-# Purpose of Multiple Split Scenarios
-
-Penggunaan beberapa skenario split bertujuan untuk:
-
-- Mengevaluasi stabilitas model terhadap variasi jumlah data training
-- Mengukur kemampuan generalisasi model
-- Membandingkan performa Hybrid GAT + Transformer Encoder pada distribusi data yang berbeda
-- Mengurangi bias evaluasi akibat hanya menggunakan satu konfigurasi split
-
----
-
-# Notes
-
-- Dataset telah melalui proses preprocessing URL dan HTML.
-- Pembagian dataset dilakukan secara otomatis menggunakan random split.
-- Validation set digunakan untuk:
-  - hyperparameter tuning
-  - early stopping
-  - model selection
-- Test set hanya digunakan untuk evaluasi akhir model.
-
----
