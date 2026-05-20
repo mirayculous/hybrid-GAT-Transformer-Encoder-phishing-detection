@@ -1,4 +1,4 @@
-## Hasil Pelatihan Model GATv2 (Skenario Split 90:10)
+# Hasil Pelatihan Model GATv2 (Skenario Split 90:10)
 
 Proses pelatihan dilakukan menggunakan GPU (CUDA) selama 50 *epoch*. Berikut adalah rekaman log dari proses *training* dan *validation*:
 
@@ -65,9 +65,9 @@ Epoch: 050 | Train Loss: 0.2154 | Val Loss: 0.1925 | Val Acc: 92.34% | Val AUC: 
 
 
 ## === HASIL EVALUASI DATA TEST ===
-Accuracy : 91.38%
-Precision: 95.42%
-Recall   : 84.75%
-F1-Score : 89.77%
+Accuracy : 91.38%<br/>
+Precision: 95.42%<br/>
+Recall   : 84.75%<br/>
+F1-Score : 89.77%<br/>
 AUC-ROC  : 0.9676
 
