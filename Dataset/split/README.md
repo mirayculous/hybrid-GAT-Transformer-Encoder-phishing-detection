@@ -1,0 +1,131 @@
+## Dataset Split Metadata
+
+Dataset ini digunakan untuk penelitian:
+
+> **IMPLEMENTATION OF DEEP LEARNING BASED ON HYBRID GRAPH ATTENTION NETWORK (GAT) ARCHITECTURE AND TRANSFORMER ENCODER FOR PHISHING DETECTION**
+
+### Model Architecture
+- **Graph Attention Network (GAT)** → digunakan untuk pemrosesan fitur URL
+- **Transformer Encoder** → digunakan untuk pemrosesan konten HTML
+
+---
+
+# Dataset Split Configuration
+
+Total dataset yang digunakan:
+
+- **39,661 samples**
+
+Dataset dibagi menjadi beberapa skenario eksperimen untuk mengevaluasi performa model pada proporsi data training yang berbeda.
+
+---
+
+## Split Scenario: 90 / 5 / 5
+
+| Subset | Jumlah Data | Persentase |
+|---|---:|---:|
+| Train | 35,693 | 90% |
+| Validation | 1,984 | 5% |
+| Test | 1,984 | 5% |
+
+### Path
+```bash
+dataset_splits/split_90_5_5/
+```
+
+### File Structure
+```bash
+train.csv
+validation.csv
+test.csv
+```
+
+---
+
+## Split Scenario: 80 / 10 / 10
+
+| Subset | Jumlah Data | Persentase |
+|---|---:|---:|
+| Train | 31,727 | 80% |
+| Validation | 3,967 | 10% |
+| Test | 3,967 | 10% |
+
+### Path
+```bash
+dataset_splits/split_80_10_10/
+```
+
+### File Structure
+```bash
+train.csv
+validation.csv
+test.csv
+```
+
+---
+
+## Split Scenario: 70 / 15 / 15
+
+| Subset | Jumlah Data | Persentase |
+|---|---:|---:|
+| Train | 27,762 | 70% |
+| Validation | 5,949 | 15% |
+| Test | 5,950 | 15% |
+
+### Path
+```bash
+dataset_splits/split_70_15_15/
+```
+
+### File Structure
+```bash
+train.csv
+validation.csv
+test.csv
+```
+
+---
+
+# Purpose of Multiple Split Scenarios
+
+Penggunaan beberapa skenario split bertujuan untuk:
+
+- Mengevaluasi stabilitas model terhadap variasi jumlah data training
+- Mengukur kemampuan generalisasi model
+- Membandingkan performa Hybrid GAT + Transformer Encoder pada distribusi data yang berbeda
+- Mengurangi bias evaluasi akibat hanya menggunakan satu konfigurasi split
+
+---
+
+# Notes
+
+- Dataset telah melalui proses preprocessing URL dan HTML.
+- Pembagian dataset dilakukan secara otomatis menggunakan random split.
+- Validation set digunakan untuk:
+  - hyperparameter tuning
+  - early stopping
+  - model selection
+- Test set hanya digunakan untuk evaluasi akhir model.
+
+---
+
+# Example Directory Structure
+
+```bash
+dataset_splits/
+│
+├── split_90_5_5/
+│   ├── train.csv
+│   ├── validation.csv
+│   └── test.csv
+│
+├── split_80_10_10/
+│   ├── train.csv
+│   ├── validation.csv
+│   └── test.csv
+│
+└── split_70_15_15/
+    ├── train.csv
+    ├── validation.csv
+    └── test.csv
+```
