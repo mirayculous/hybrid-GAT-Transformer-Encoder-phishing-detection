@@ -61,6 +61,7 @@ Epoch: 048 | Train Loss: 0.2148 | Val Loss: 0.1847 | Val Acc: 92.49% | Val AUC: 
 Epoch: 049 | Train Loss: 0.2162 | Val Loss: 0.1960 | Val Acc: 92.24% | Val AUC: 0.9782
 Epoch: 050 | Train Loss: 0.2154 | Val Loss: 0.1925 | Val Acc: 92.34% | Val AUC: 0.9781
 ```
+</details>
 
 
 ## === HASIL EVALUASI DATA TEST ===
