@@ -71,3 +71,5 @@ Recall   : 84.75%<br/>
 F1-Score : 89.77%<br/>
 AUC-ROC  : 0.9676
 
+![kurva loss](results/kurva training validation loss 90_10.png)
+![Confusion matrix](results/confusion matrix ROC 90_10.png)
