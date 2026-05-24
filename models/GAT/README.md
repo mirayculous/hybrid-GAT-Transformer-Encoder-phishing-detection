@@ -1,10 +1,4 @@
-# 🚀 Phishing URL Detection using Optimized GATv2
-
-Model deteksi phishing berbasis **Graph Neural Network (GNN)** menggunakan arsitektur **Optimized GATv2 (Graph Attention Network v2)** dengan berbagai optimisasi modern untuk meningkatkan performa klasifikasi URL phishing.
-
----
-
-# 📌 Features
+# GAT model
 
 ✅ Residual GATv2 Block
 ✅ Multi-Head Attention
