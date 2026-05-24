@@ -120,3 +120,10 @@ AUC ROC   : 98.49%
 | `loss_curve.png` | Training & validation loss |
 | `roc_curve.png`  | ROC curve                  |
 | `evaluation.png` | Evaluation visualization   |
+
+<img width="700" height="600" alt="roc_curve_gatv2" src="https://github.com/user-attachments/assets/098bc77a-ace7-4131-853c-1fbf0b541df8" />
+<img width="800" height="500" alt="loss_curve_gatv2" src="https://github.com/user-attachments/assets/0bcb8cec-e3ed-4ca7-bc88-1efb3c1b4d77" />
+<img width="1200" height="500" alt="evaluation_gatv2" src="https://github.com/user-attachments/assets/0447aaf1-b847-4163-820e-083e616f544b" />
+
+
+
