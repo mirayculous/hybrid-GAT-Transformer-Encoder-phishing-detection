@@ -96,9 +96,9 @@ print(f"\n[INFO] Device : {DEVICE}")
 # CONFIG
 # ============================================================
 
-TRAIN_CSV = "/kaggle/input/datasets/raynaldadikasumarga/split-url-html/split/90_10/HTML/train.csv"
-VAL_CSV   = "/kaggle/input/datasets/raynaldadikasumarga/split-url-html/split/90_10/HTML/val.csv"
-TEST_CSV  = "/kaggle/input/datasets/raynaldadikasumarga/split-url-html/split/90_10/HTML/test.csv"
+TRAIN_CSV = "train.csv"
+VAL_CSV   = "val.csv"
+TEST_CSV  = "test.csv"
 
 # ── SecBERT: pretrained di domain cybersecurity ───────────────────────
 PRETRAINED_MODEL = "jackaduma/SecBERT"
